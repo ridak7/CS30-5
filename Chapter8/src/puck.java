@@ -10,21 +10,22 @@ public class puck extends circle
 	boolean standard, youth;
 	
 	public puck(double w)
-	{//a
+	{
 		
 		weight = w;
 		
-		if(weight >= AdMin && weight <= AdMax);
+		if(weight >= AdMin && weight <= AdMax)
 		{
 			standard = true;
 			youth = false;
 		}
 		
-		else(weight >= YthMin && weight <= YthMax);
+		else if(weight >= YthMin && weight <= YthMax)
 		{
 			standard = false;
 			youth = true;
 		}
+
 
 	}
 	
