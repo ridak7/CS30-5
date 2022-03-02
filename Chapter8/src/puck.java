@@ -10,7 +10,7 @@ public class puck extends circle
 	boolean standard, youth;
 	
 	public puck(double w)
-	{
+	{//a
 		
 		weight = w;
 		
