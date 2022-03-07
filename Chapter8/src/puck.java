@@ -46,5 +46,10 @@ public class puck extends circle
 	  
 	  return div;
   }
+  
+  public double getWeight()
+  {
+	  return(weight);
+  }
 	
 }
