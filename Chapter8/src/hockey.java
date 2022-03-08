@@ -3,17 +3,28 @@ import java.text.NumberFormat;
 public class hockey 
 {
 
-	public static void puckWeight(puck p, double wArg)
+		
+	public static void main(String[] args)
 	{
+		Scanner input = new Scanner(System.in);
 		
-		NumberFormat weight = NumberFormat.getInstance();
+		puck pA = new puck(5.5);
+		puck yt = new puck(4.5);
 		
-		System.out.println(p);
+		//standard puck
+		System.out.println(pA.getWeight());
+		System.out.println(pA.getDivision());
+		System.out.println(pA.getRadius());
+		
+		//youth puck
+		System.out.println(yt.getWeight());
+		System.out.println(yt.getDivision());
+		System.out.println(yt.getRadius());
 		
 		
-		weight = p.w(wArg);
-		
-		System.out.println()
+		String action;
+		int w;
+		double wArg;
 		
 	}
 	
