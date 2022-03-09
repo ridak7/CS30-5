@@ -52,4 +52,19 @@ public class puck extends circle
 	  return(weight);
   }
 	
+  public boolean equals(Object p)
+  {
+	  
+	  puck testObj = (puck)p;
+	  if(testObj.getWeight() == weight)
+	  {
+		  return(true);
+	  }
+	  else
+	  {
+		  return false;
+	  }
+	  
+  }
+  
 }

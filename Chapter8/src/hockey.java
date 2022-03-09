@@ -1,4 +1,5 @@
 import java.text.NumberFormat;
+import java.util.Scanner;
 
 public class hockey 
 {
@@ -25,6 +26,14 @@ public class hockey
 		String action;
 		int w;
 		double wArg;
+		if(pA.equals(yt))
+		{
+			System.out.println("true");
+		}
+		else
+		{
+			System.out.println("false");
+		}
 		
 	}
 	
