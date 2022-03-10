@@ -1,3 +1,5 @@
+													Header?
+
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -17,9 +19,9 @@ public class breakAPlate {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) {					//coding standards
 		EventQueue.invokeLater(new Runnable() {
-			public void run() {
+			public void run() {						
 				try {
 					breakAPlate window = new breakAPlate();
 					window.frame.setVisible(true);
@@ -42,7 +44,7 @@ public class breakAPlate {
 	/**
 	 * Initialize the contents of the frame.
 	 */
-	private void initialize() {
+	private void initialize() {										//coding standards
 		
 		ImageIcon plates = new ImageIcon("..\\Chapter10v2\\src\\broken plates\\plates.gif ");
 		
